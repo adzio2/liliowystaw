@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+http://liliowystaw.netlify.com/* http://www.liliowystaw.pl/:splat 301!
+https://liliowystaw.netlify.com/* https://www.liliowystaw.pl/:splat 301!
+http://liliowystaw.pl/* https://www.liliowystaw.pl/:splat 301!
+https://liliowystaw.pl/* https://www.liliowystaw.pl/:splat 301!
